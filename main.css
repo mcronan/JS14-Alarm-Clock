@@ -1,0 +1,90 @@
+* {
+ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.outer-shell {
+	width: 470px;
+	height: 205px;
+	background-color: gray;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: relative;
+}
+
+.inner-shell {
+	width: 400px;
+	height: 160px;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	top: 20px;
+	left: 32px;
+
+}
+
+.label {
+	width: 30px;
+	height: 60px;
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	font-size: 12px;
+	line-height: 50px;
+	font-family: helvetica;
+}
+
+.clockScreen {
+	width: 300px;
+	height: 100px;
+	background-color: #9B111E;
+	position: absolute;
+	left: 50px;
+	top: 25px;
+}
+
+.time {
+	color: red;
+	font-size: 60px;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	font-family: 'digitaldream';
+}
+
+.indicator {
+	color: red;
+	font-size: 80px;
+	position: absolute;
+	top: 12px;
+	left: 133px;
+	font-family: 'digitaldream';
+}
+
+.amLabel {
+	color: white;
+	font-family: helvetica;
+	position: absolute;
+	bottom: 20px;
+	font-size: 10px;
+	word-spacing: 20px;
+	left: 55px;
+}
+
+.fmLabel {
+	color: white;
+	font-family: helvetica;
+	position: absolute;
+	bottom: 9px;
+	font-size: 10px;
+	word-spacing: 20px;
+	left: 55px;
+}
+
+@font-face {
+	font-family: 'digitaldream';
+	src: url("DIGITALDREAM.ttf");
+}
